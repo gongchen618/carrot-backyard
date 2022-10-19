@@ -1,0 +1,10 @@
+app:
+  addr: ":3487"
+  prefix: "/api"
+mongodb:
+  host: "127.0.0.1"
+  username: "carrot"
+  password: "123"
+  database: "carrot"
+qqbot:
+  host: "http://127.0.0.1:5700"
