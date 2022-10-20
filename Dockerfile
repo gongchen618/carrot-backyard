@@ -1,4 +1,4 @@
-FROM golang:1.16-alpine3.15 as builder
+FROM golang:1.17-alpine3.15 as builder
 ENV GOPROXY="https://goproxy.cn" \
     CGO_ENABLED=1 \
     GOOS=linux \
